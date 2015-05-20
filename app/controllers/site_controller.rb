@@ -5,4 +5,8 @@ class SiteController < ApplicationController
           success: true
       }, status: 200
   end
+
+  def halo
+      render :json => "halo"
+  end
 end
